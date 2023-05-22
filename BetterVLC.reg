@@ -1,0 +1,23 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mkv\shell\Item0]
+"MUIVerb"="Play with VLC mixed audio tracks"
+"Icon"="C:\\Program Files\\VideoLAN\\VLC\\vlc.exe,0"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mkv\shell\Item0\command]
+@="\"C:\\Program Files\\VideoLAN\\VLC\\vlc.exe\" --sout-all --sout #display --started-from-file \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp4\shell\Item0]
+"MUIVerb"="Play with VLC mixed audio tracks"
+"Icon"="C:\\Program Files\\VideoLAN\\VLC\\vlc.exe,0"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp4\shell\Item0\command]
+@="\"C:\\Program Files\\VideoLAN\\VLC\\vlc.exe\" --sout-all --sout #display --started-from-file \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp3\shell\Item0]
+"MUIVerb"="Play with VLC mixed audio tracks"
+"Icon"="C:\\Program Files\\VideoLAN\\VLC\\vlc.exe,0"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp3\shell\Item0\command]
+@="\"C:\\Program Files\\VideoLAN\\VLC\\vlc.exe\" --sout-all --sout #display --started-from-file \"%1\""
+
